@@ -6,10 +6,12 @@ module.exports = class PeopleService {
     }
 
     updatePeople(id, people) {
-        // To be implemented!
+        console.log(id);
     }
-    
+
     getPeople(filters) {
-        // To be implemented!
+     console.log("filters :", filters);
+
+      return this.peoples;
     }
 }
